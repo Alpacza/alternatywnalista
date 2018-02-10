@@ -11,6 +11,12 @@
     border: 2px solid black;
 }
 
+.instrukcja {
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
 .clearfix {
     clear:both;
 }
@@ -21,6 +27,7 @@ header {
     position: relative;
     background: black url("images/book.jpg") center/cover;
     font-size: 40px;
+    padding-top: 20px;
 }
 
 h1 {
@@ -36,6 +43,10 @@ section {
     font-size: 25px;
 }
 
+.wstep {
+    padding: 20px;
+}
+
 .kafel {
     min-width: 250px;
     height: auto;
@@ -45,6 +56,7 @@ section {
     margin: 10px;
     text-align: center;
     background: lightblue;
+    padding: 5px;
 
 }
 
