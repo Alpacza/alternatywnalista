@@ -8,7 +8,6 @@
 .container {
     width: 1000px;
     margin: auto;
-    border: 2px solid black;
 }
 
 .instrukcja {
@@ -25,13 +24,18 @@ header {
     width: 100%;
     height: 300px;
     position: relative;
-    background: black url("images/book.jpg") center/cover;
+    background: black url("images/book3.jpg") center/cover;
     font-size: 40px;
     padding-top: 20px;
 }
 
 h1 {
     text-align: center;
+    color: white;
+}
+
+.title {
+    background-color: rgba(157,190,255,0.5);
 }
 
 .header {
@@ -55,7 +59,7 @@ section {
     border: 1px solid black;
     margin: 10px;
     text-align: center;
-    background: lightblue;
+    background: rgb(157,239,255);
     padding: 5px;
 
 }
@@ -65,6 +69,16 @@ th {
 }
 
 td {
+    font-size: 20px;
+}
+
+footer {
+    background: rgb(173,157,254);
+    height: 80px;
+    padding: 20px;
+}
+.stopka {
+    float: right;
     font-size: 20px;
 }
 
